@@ -32,9 +32,9 @@ fun main(args: Array<String>) {
     ConsultaEncolumnada5502(cal).call(ws).forEach { println(it) }
     println();println();println()
 
-    // Ejemplo precios mercado intradiario (solo session 2)
+    // Ejemplo precios mercado intradiario (solo sesion 2)
     val sesion = 2
-    println("PETICION PRECIO MERCADO INTRADIARIO (solo session 2)")
+    println("PETICION PRECIO MERCADO INTRADIARIO (solo sesion 2)")
     ConsultaEncolumnada5603(cal, sesion).call(ws).forEach { println(it) }
     println();println();println()
 

@@ -4,13 +4,13 @@ import org.w3c.dom.Node
 import java.util.*
 
 class ConsultaEncolumnada5603(
-    val cal: Calendar, val session: Int
+    val cal: Calendar, val sesion: Int
 ) : AbstractConsultaEncolumnada<List<ConsultaEncolumnada5603Data>>("""
     <MensajeEjecucionConsulta>  
         <CodConsulta v="5603"/>  
         <Parametros>
             <Fec n="Fecha" v="${getFormatParam(cal)}"/>  
-            <Ses n="Sesion" v="$session"/> 
+            <Ses n="Sesion" v="$sesion"/> 
         </Parametros>
     </MensajeEjecucionConsulta>
 """.trimIndent()) {
@@ -25,7 +25,7 @@ class ConsultaEncolumnada5603(
 
                 result.add(ConsultaEncolumnada5603Data(
                     cal,
-                    session,
+                    sesion,
                     getVofN(nodeFila.childNodes, "Hora")!!.toInt(),
                     getVofN(nodeFila.childNodes, "PrecioES")!!.toDouble(),
                     getVofN(nodeFila.childNodes, "PrecioPT")!!.toDouble(),
@@ -38,5 +38,5 @@ class ConsultaEncolumnada5603(
 }
 
 data class ConsultaEncolumnada5603Data(
-    val cal:Calendar, val session:Int, val hora:Int, val precioES:Double, val precioPT:Double, val energia:Double,
+    val cal:Calendar, val sesion:Int, val hora:Int, val precioES:Double, val precioPT:Double, val energia:Double,
 )
