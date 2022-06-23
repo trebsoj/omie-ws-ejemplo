@@ -16,7 +16,7 @@
 ## Peticiones de ejemplo
  - Listado consultas disponibles en el WS de OMIE.
  - 5502: Precios mercado diario.
- - 5603: Precios Mercado intradiario. Resultados de la Casación.
+ - 5603: Precios mercado intradiario. Resultados de la Casación.
  - 5535: Importe agregado de la liquidación del ajuste de los costes de producción de energía eléctrica.
 
 
