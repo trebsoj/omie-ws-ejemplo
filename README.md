@@ -11,6 +11,14 @@
 
  - Se ha utilizado Java 11 para hacer el proyecto
 
+
+## Peticiones de ejemplo
+ - Listado consultas disponibles en el WS de OMIE.
+ - 5502: Precios mercado Intradiario.
+ - 5603: Precios Mercado Intradiario. Resultados de la Casación.
+ - 5535: Importe agregado de la liquidación del ajuste de los costes de producción de energía eléctrica.
+
+
 ## Estructura de classe
 
 ```mermaid
