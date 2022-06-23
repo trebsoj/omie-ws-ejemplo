@@ -19,7 +19,7 @@
  - 5535: Importe agregado de la liquidación del ajuste de los costes de producción de energía eléctrica.
 
 
-## Estructura de classe
+## Estructura de clases
 
 ```mermaid
 graph TD
